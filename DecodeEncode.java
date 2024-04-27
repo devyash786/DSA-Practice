@@ -1,9 +1,10 @@
 package com.dev.dsa;
-
+/*if A=1, B=2, ... Z=26
+Decode message in alphates of lenght X, X = 9. 2324252627291, output message should be on length X, WXYZBGBIA, */
 import java.util.ArrayList;
 import java.util.List;
 
-public class DSADay6 {
+public class DecodeEncode {
 	static void generateDecodings(char[] digits, int n, int length, StringBuilder decoded, List<String> result) {
 		if (n == 0) {
 			if (length == 0) {
